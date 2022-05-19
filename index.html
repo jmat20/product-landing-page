@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logitech G502 HERO</title>
+    <link rel="stylesheet" href="./Assets/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script type="text/javascript" src="./Assets/script.js" async></script>
+  </head>
+  <body>
+    <div class="top" id="topnav">
+      <a href="#" class="active logo nav-link" id="logo"
+        ><img id="header-img" src="./Assets/images/Glogo.png"
+      /></a>
+      <a class="nav-link" href="#features">FEATURES</a>
+      <a class="nav-link" href="#in-the-box">IN THE BOX</a>
+      <a class="nav-link" href="#review">REVIEWS</a>
+      <a
+        href="javascript:void(0);"
+        class="nav-link icon"
+        onclick="myFunction()"
+      >
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
+    <div id="main">
+      <div id="main1">
+        <span id="g502"><strong>G502</strong></span>
+        <img id="main-img" src="./Assets/images/g502.png" />
+      </div>
+      <div id="main2">
+        <div id="top">
+          <h2>A REBORN HERO</h2>
+          <p><strong>______________</strong></p>
+          <div class="blurb">
+            G502 HERO features an advanced optical sensor for maximum tracking
+            accuracy, customizable RGB lighting, custom game profiles, from 200
+            up to 25,600 DPI, and repositionable weights.
+          </div>
+        </div>
+        <div class="sub-main" id="sub1">
+          <h3>HERO 25K</h3>
+          <h4>OUR MOST ACCURATE</h4>
+        </div>
+        <div class="sub-main" id="sub2">
+          <h3>11 BUTTONS</h3>
+          <h4>FULLY PROGRAMMABLE</h4>
+        </div>
+        <div class="sub-main" id="sub3">
+          <h3>FIVE 3.6 G</h3>
+          <h4>ADJUSTABLE WEIGHTS</h4>
+        </div>
+        <div class="sub-main" id="sub4">
+          <img id="submain" src="./Assets/images/g502-main.png" />
+        </div>
+      </div>
+    </div>
+    <div id="features">
+      <div class="sub-feature" id="sens">
+        <div id="sensor-img">
+          <img id="sensor" src="./Assets/images/sensor.png" />
+        </div>
+        <div class="sub-blurb">
+          <p class="l3">HERO 25K SENSOR</p>
+          <div class="blurb2">
+            HERO 25K is our most accurate gaming sensor ever with next-gen
+            precision and a ground-up architecture. With the fastest frame rate
+            processing yet, HERO is capable of 400+ IPS across the 100 - 25,600
+            DPI range with zero smoothing, filtering or acceleration. HERO 25K
+            achieves competition-level precision and the most consistent
+            responsiveness ever. Be sure to customize and tune your DPI settings
+            using Logitech G HUB.
+          </div>
+        </div>
+      </div>
+      <div class="sub-feature" id="but">
+        <div id="button-img">
+          <img id="butt" src="./Assets/images/buttons.png" />
+        </div>
+        <div class="sub-blurb">
+          <p class="l3">11 PROGRAMMABLE BUTTONS</p>
+          <div class="blurb2">
+            Use Logitech G HUB to program your favorite commands and macros to
+            each of the 11 buttons. Build, crouch, melee, heal … put your power
+            moves at your fingertips. Save ready-to-play profiles directly to
+            the mouse to take your settings with you anywhere.
+          </div>
+        </div>
+      </div>
+      <div class="sub-feature" id="weigh">
+        <div id="weights-img">
+          <img id="weights" src="./Assets/images/weights.png" />
+        </div>
+        <div class="sub-blurb">
+          <p class="l3">TUNABLE WEIGHT</p>
+          <div class="blurb2">
+            Fine tune mouse feel and glide to your advantage. Five 3.6g weights
+            come with G502 HERO and are configurable in a variety of front,
+            rear, left, right and center weighted configurations. Experiment
+            with the alignment and balance to find the sweet spot to optimize
+            your gaming performance.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="in-the-box">
+      <div id="inbox-img">
+        <img id="inbox" src="./Assets/images/inbox.png" />
+      </div>
+      <div class="sub-blurb" id="box-cont">
+        <p class="l3">IN THE BOX</p>
+        <p class="box-txt">G502 HERO Gaming Mouse</p>
+        <p class="box-txt">Optional 5x 3.6 g weights and Case</p>
+        <p class="box-txt">User documentation</p>
+        <p class="box-txt">2-year limited hardware warranty</p>
+      </div>
+    </div>
+    <div id="review">
+      <div id="sub-rev">
+        <p class="rev">REVIEWS</p>
+      </div>
+      <iframe
+        width="90%"
+        height="70%"
+        src="https://www.youtube.com/embed/Iek-UH9ZWUw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div id="contact">
+      <form id="survey-form" action="./thankyou.html" method="get">
+        <p class="l3">
+          Subscribe to our newsletter to receive the latest news and updates
+        </p>
+        <div id="newsletter">
+          <label class="email" id="email-label"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="about-input"
+            placeholder="EMAIL ADDRESS*"
+            size="20"
+            required
+          />
+        </div>
+        <div id="submit">
+          <input
+            id="thebutton"
+            type="submit"
+            name="button"
+            value="SUBSCRIBE"
+            size="20"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
