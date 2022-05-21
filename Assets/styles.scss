@@ -183,6 +183,8 @@ p.l3 {
     @include flex(flex, space-around, center);
     flex-direction: column;
     background-color: rgba($color: rgb(243, 243, 243), $alpha: 1);
+    height: 100vh;
+    padding-top: 44px;
   }
 }
 
