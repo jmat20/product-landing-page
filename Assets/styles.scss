@@ -113,16 +113,10 @@ img#submain {
   height: auto;
 }
 
-#features {
-  // @include flex(flex, space-around, center);
-  //flex-direction: column;
-}
-
 @media screen and (max-width: 820px) {
   .sub-feature {
     @include flex(flex, space-around, center);
     flex-direction: column;
-    // @extend #features;
     background-color: rgba($color: #232323, $alpha: 1);
     color: white;
   }
